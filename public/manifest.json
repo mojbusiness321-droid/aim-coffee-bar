@@ -1,0 +1,17 @@
+{
+  "name": "Aim Coffee Bar | أيم كوفي بار",
+  "short_name": "Aim Coffee",
+  "description": "Specialty Coffee Bar in Al Malqa & Al Narjis, Riyadh",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#141416",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

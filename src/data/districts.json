@@ -1,0 +1,15 @@
+[
+  { "id": "al-malqa", "nameAr": "الملقا", "nameEn": "Al Malqa", "fee": 12, "eta": "20 - 30 دقيقة", "etaEn": "20 - 30 min", "zone": "Zone 1" },
+  { "id": "al-sahafa", "nameAr": "الصحافة", "nameEn": "Al Sahafa", "fee": 14, "eta": "25 - 35 دقيقة", "etaEn": "25 - 35 min", "zone": "Zone 1" },
+  { "id": "al-yasmin", "nameAr": "الياسمين", "nameEn": "Al Yasmin", "fee": 14, "eta": "25 - 35 دقيقة", "etaEn": "25 - 35 min", "zone": "Zone 1" },
+  { "id": "al-narjis", "nameAr": "النرجس", "nameEn": "Al Narjis", "fee": 15, "eta": "25 - 35 دقيقة", "etaEn": "25 - 35 min", "zone": "Zone 1" },
+  { "id": "hittin", "nameAr": "حطين", "nameEn": "Hittin", "fee": 16, "eta": "30 - 40 دقيقة", "etaEn": "30 - 40 min", "zone": "Zone 2" },
+  { "id": "al-aqiq", "nameAr": "العقيق", "nameEn": "Al Aqiq", "fee": 15, "eta": "25 - 35 دقيقة", "etaEn": "25 - 35 min", "zone": "Zone 1" },
+  { "id": "al-ghadir", "nameAr": "الغدير", "nameEn": "Al Ghadir", "fee": 16, "eta": "30 - 40 دقيقة", "etaEn": "30 - 40 min", "zone": "Zone 2" },
+  { "id": "al-nakheel", "nameAr": "النخيل", "nameEn": "Al Nakheel", "fee": 18, "eta": "35 - 45 دقيقة", "etaEn": "35 - 45 min", "zone": "Zone 2" },
+  { "id": "al-olaya", "nameAr": "العليا", "nameEn": "Al Olaya", "fee": 20, "eta": "35 - 45 دقيقة", "etaEn": "35 - 45 min", "zone": "Zone 3" },
+  { "id": "as-sulimaniyah", "nameAr": "السليمانية", "nameEn": "As Sulimaniyah", "fee": 22, "eta": "40 - 50 دقيقة", "etaEn": "40 - 50 min", "zone": "Zone 3" },
+  { "id": "al-rahmaniyah", "nameAr": "الرحمانية", "nameEn": "Al Rahmaniyah", "fee": 20, "eta": "35 - 45 دقيقة", "etaEn": "35 - 45 min", "zone": "Zone 3" },
+  { "id": "al-wurud", "nameAr": "الورود", "nameEn": "Al Wurud", "fee": 20, "eta": "35 - 45 دقيقة", "etaEn": "35 - 45 min", "zone": "Zone 3" },
+  { "id": "diriyah", "nameAr": "الدرعية", "nameEn": "Diriyah", "fee": 24, "eta": "40 - 50 دقيقة", "etaEn": "40 - 50 min", "zone": "Zone 4" }
+]

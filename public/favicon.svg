@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="#141416"/>
+  <!-- Stylized Target & Coffee Bean / Droplet -->
+  <circle cx="50" cy="50" r="34" stroke="#C98A4B" stroke-width="3" stroke-dasharray="6 4" opacity="0.6"/>
+  <circle cx="50" cy="50" r="22" stroke="#FAF7F2" stroke-width="2.5"/>
+  <path d="M50 34C44 42 42 47 42 52C42 56.4 45.6 60 50 60C54.4 60 58 56.4 58 52C58 47 56 42 50 34Z" fill="#C98A4B"/>
+  <circle cx="50" cy="52" r="3" fill="#141416"/>
+</svg>

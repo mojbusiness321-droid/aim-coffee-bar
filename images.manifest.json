@@ -1,0 +1,258 @@
+[
+  {
+    "key": "hero-main",
+    "usage": "Home Hero Background / Feature",
+    "searchTerms": "specialty coffee bar barista pouring warm minimalist cafe",
+    "aspectRatio": "16:9",
+    "styleNote": "Warm cinematic architectural cafe bar with espresso machine and steam",
+    "type": "atmosphere"
+  },
+  {
+    "key": "atmosphere-bar",
+    "usage": "Atmosphere Gallery - Espresso Bar",
+    "searchTerms": "modern minimalist coffee bar espresso machine terrazzo",
+    "aspectRatio": "4:3",
+    "styleNote": "Clean industrial minimalist counter with espresso machine and baristas",
+    "type": "atmosphere"
+  },
+  {
+    "key": "atmosphere-pour",
+    "usage": "Atmosphere Gallery - Latte Art Pour",
+    "searchTerms": "barista pouring latte art flat white closeup",
+    "aspectRatio": "4:3",
+    "styleNote": "Warm intimate shot of milk foam pour into ceramic cup",
+    "type": "atmosphere"
+  },
+  {
+    "key": "atmosphere-v60",
+    "usage": "Atmosphere Gallery - Manual Drip V60",
+    "searchTerms": "v60 pour over coffee brewing kettle gooseneck",
+    "aspectRatio": "4:3",
+    "styleNote": "Artisanal filter drip coffee extraction with glass server",
+    "type": "atmosphere"
+  },
+  {
+    "key": "atmosphere-seating",
+    "usage": "Atmosphere Gallery - Interior Seating",
+    "searchTerms": "minimalist cafe interior seating laptop work quiet warm lighting",
+    "aspectRatio": "4:3",
+    "styleNote": "Modern cafe seating with natural light, plants and architectural wood",
+    "type": "atmosphere"
+  },
+  {
+    "key": "atmosphere-beans",
+    "usage": "Atmosphere Gallery - Specialty Coffee Beans",
+    "searchTerms": "specialty roasted coffee beans scoop burlap bag",
+    "aspectRatio": "4:3",
+    "styleNote": "Roasted single-origin coffee beans with rich texture",
+    "type": "atmosphere"
+  },
+  {
+    "key": "item-v60-hot",
+    "usage": "Menu Item - Hot V60 Drip",
+    "searchTerms": "v60 filter coffee glass carafe ceramic cup specialty",
+    "aspectRatio": "4:5",
+    "styleNote": "Clear aromatic filter coffee in artisan cup and glass server",
+    "type": "menu"
+  },
+  {
+    "key": "item-v60-iced",
+    "usage": "Menu Item - Iced V60 Drip",
+    "searchTerms": "iced pour over coffee ice glass clear",
+    "aspectRatio": "4:5",
+    "styleNote": "Iced specialty filter coffee with ice cubes in modern glass",
+    "type": "menu"
+  },
+  {
+    "key": "item-spanish-latte-iced",
+    "usage": "Menu Item - Iced Spanish Latte",
+    "searchTerms": "iced spanish latte layered condensed milk espresso coffee glass",
+    "aspectRatio": "4:5",
+    "styleNote": "Distinctly layered iced Spanish latte with sweet milk base and rich espresso top",
+    "type": "menu"
+  },
+  {
+    "key": "item-spanish-latte-hot",
+    "usage": "Menu Item - Hot Spanish Latte",
+    "searchTerms": "hot spanish latte creamy latte art cup",
+    "aspectRatio": "4:5",
+    "styleNote": "Rich creamy Spanish latte with glossy microfoam and delicate latte art",
+    "type": "menu"
+  },
+  {
+    "key": "item-matcha-iced",
+    "usage": "Menu Item - Iced Matcha Latte",
+    "searchTerms": "iced matcha latte layered green glass milk",
+    "aspectRatio": "4:5",
+    "styleNote": "Vibrant emerald green ceremonial grade matcha layered over cold fresh milk",
+    "type": "menu"
+  },
+  {
+    "key": "item-matcha-hot",
+    "usage": "Menu Item - Hot Matcha Latte",
+    "searchTerms": "hot matcha latte art green cup",
+    "aspectRatio": "4:5",
+    "styleNote": "Steamed matcha latte with delicate white foam art in minimalist cup",
+    "type": "menu"
+  },
+  {
+    "key": "item-flat-white",
+    "usage": "Menu Item - Flat White",
+    "searchTerms": "flat white latte art tulip ceramic cup specialty coffee",
+    "aspectRatio": "4:5",
+    "styleNote": "Velvety flat white with double espresso base and silky tulip latte art",
+    "type": "menu"
+  },
+  {
+    "key": "item-latte-hot",
+    "usage": "Menu Item - Hot Latte",
+    "searchTerms": "cafe latte porcelain cup table",
+    "aspectRatio": "4:5",
+    "styleNote": "Classic hot caffe latte with smooth steamed milk",
+    "type": "menu"
+  },
+  {
+    "key": "item-latte-iced",
+    "usage": "Menu Item - Iced Latte",
+    "searchTerms": "iced latte coffee milk ice glass straw",
+    "aspectRatio": "4:5",
+    "styleNote": "Refreshing cold espresso latte over crystal clear ice",
+    "type": "menu"
+  },
+  {
+    "key": "item-cortado",
+    "usage": "Menu Item - Cortado",
+    "searchTerms": "cortado coffee gibraltar glass espresso steamed milk",
+    "aspectRatio": "4:5",
+    "styleNote": "Balanced 1:1 cortado served in a fluted glass",
+    "type": "menu"
+  },
+  {
+    "key": "item-cappuccino",
+    "usage": "Menu Item - Cappuccino",
+    "searchTerms": "traditional cappuccino thick foam dusting",
+    "aspectRatio": "4:5",
+    "styleNote": "Traditional cappuccino with velvety dense foam crest",
+    "type": "menu"
+  },
+  {
+    "key": "item-espresso",
+    "usage": "Menu Item - Espresso Single/Double",
+    "searchTerms": "espresso shot crema ceramic cup dark rich",
+    "aspectRatio": "4:5",
+    "styleNote": "Rich golden-brown tiger-striped crema in ceramic demitasse",
+    "type": "menu"
+  },
+  {
+    "key": "item-freddo-espresso",
+    "usage": "Menu Item - Freddo Espresso",
+    "searchTerms": "freddo espresso shaken iced coffee foam top",
+    "aspectRatio": "4:5",
+    "styleNote": "Shaken iced espresso with creamy aerated crema layer on top",
+    "type": "menu"
+  },
+  {
+    "key": "item-hibiscus-iced",
+    "usage": "Menu Item - Iced Hibiscus",
+    "searchTerms": "iced hibiscus tea red ruby drink glass mint",
+    "aspectRatio": "4:5",
+    "styleNote": "Deep ruby-red cold hibiscus refresher with clear ice and citrus wheel",
+    "type": "menu"
+  },
+  {
+    "key": "item-cheesecake-madrid",
+    "usage": "Menu Item - Madrid Cheesecake (San Sebastian)",
+    "searchTerms": "san sebastian cheesecake burnt basque creamy center slice",
+    "aspectRatio": "4:5",
+    "styleNote": "Caramelized dark crust with molten creamy center slice",
+    "type": "menu"
+  },
+  {
+    "key": "item-tiramisu",
+    "usage": "Menu Item - Tiramisu Cake",
+    "searchTerms": "tiramisu slice cocoa powder mascarpone coffee soaked",
+    "aspectRatio": "4:5",
+    "styleNote": "Artisanal Italian tiramisu layered with espresso ladyfingers and cocoa",
+    "type": "menu"
+  },
+  {
+    "key": "item-cookie",
+    "usage": "Menu Item - Chocolate Cookie",
+    "searchTerms": "gourmet chocolate chip cookie gooey melted chocolate sea salt",
+    "aspectRatio": "4:5",
+    "styleNote": "Freshly baked chunky cookie with molten dark chocolate pools and sea salt flakes",
+    "type": "menu"
+  },
+  {
+    "key": "item-caramel-velvet",
+    "usage": "Menu Item - Caramel Velvet Cake",
+    "searchTerms": "salted caramel layer cake slice elegant dessert",
+    "aspectRatio": "4:5",
+    "styleNote": "Decadent caramel velvet layer cake with golden drizzle",
+    "type": "menu"
+  },
+  {
+    "key": "item-dolce-bites",
+    "usage": "Menu Item - Dolce Bites Box",
+    "searchTerms": "mini dessert bites dulce de leche petit fours",
+    "aspectRatio": "4:5",
+    "styleNote": "Gourmet mini sweet bites glazed in dulce de leche",
+    "type": "menu"
+  },
+  {
+    "key": "item-creme-brulee-bites",
+    "usage": "Menu Item - Crème Brûlée Bites",
+    "searchTerms": "mini creme brulee caramelized sugar crust bites",
+    "aspectRatio": "4:5",
+    "styleNote": "Torch-caramelized crispy sugar crust mini crème brûlée pastry",
+    "type": "menu"
+  },
+  {
+    "key": "item-cinnamon-roll",
+    "usage": "Menu Item - Cinnamon Roll",
+    "searchTerms": "cinnamon roll glazed warm fresh baked frosting",
+    "aspectRatio": "4:5",
+    "styleNote": "Soft swirl cinnamon roll with warm cream cheese drizzle",
+    "type": "menu"
+  },
+  {
+    "key": "item-halloumi-sandwich",
+    "usage": "Menu Item - Grilled Halloumi Brioche",
+    "searchTerms": "grilled halloumi sandwich brioche zaatar tomato fresh",
+    "aspectRatio": "4:5",
+    "styleNote": "Golden grilled halloumi cheese with zaatar and sundried tomato in brioche",
+    "type": "menu"
+  },
+  {
+    "key": "item-burrata-sandwich",
+    "usage": "Menu Item - Burrata & Pesto Focaccia",
+    "searchTerms": "burrata sandwich focaccia pesto tomato basil",
+    "aspectRatio": "4:5",
+    "styleNote": "Creamy burrata heart with vibrant basil pesto in rosemary focaccia",
+    "type": "menu"
+  },
+  {
+    "key": "item-spicy-tuna",
+    "usage": "Menu Item - Spicy Tuna Ciabatta",
+    "searchTerms": "spicy tuna sandwich ciabatta avocado jalapeno",
+    "aspectRatio": "4:5",
+    "styleNote": "Artisanal spicy tuna mix with sliced avocado in toasted ciabatta",
+    "type": "menu"
+  },
+  {
+    "key": "item-box-coffee-2l",
+    "usage": "Menu Item - 2L Coffee of the Day Gathering Box",
+    "searchTerms": "coffee dispenser box catering gathering cups",
+    "aspectRatio": "4:5",
+    "styleNote": "Branded kraft coffee dispenser box with paper cups for gatherings",
+    "type": "menu"
+  },
+  {
+    "key": "item-box-sandwiches",
+    "usage": "Menu Item - Gathering Sandwich Box",
+    "searchTerms": "catering mini sandwich box assortment platter",
+    "aspectRatio": "4:5",
+    "styleNote": "Premium assortment box of gourmet mini sandwiches for office or home",
+    "type": "menu"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "timezone": "Asia/Riyadh",
+  "branches": [
+    {
+      "id": "al-malqa",
+      "nameAr": "فرع الملقا (الرئيسي)",
+      "nameEn": "Al Malqa Branch (Flagship)",
+      "addressAr": "شارع عبدالله الخرجي، حي الملقا، الرياض",
+      "addressEn": "Abdullah Al Kharji St, Al Malqa, Riyadh",
+      "phone": "+966500000000",
+      "whatsapp": "966500000000",
+      "coordinates": {
+        "lat": 24.8028,
+        "lng": 46.6119
+      },
+      "googleMapsUrl": "https://maps.google.com/?q=24.8028,46.6119",
+      "curbsideAvailable": true,
+      "schedule": {
+        "saturday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "sunday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "monday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "tuesday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "wednesday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "thursday": { "open": "06:00", "close": "01:00", "closeNextDay": true },
+        "friday": { "open": "13:00", "close": "01:00", "closeNextDay": true }
+      }
+    },
+    {
+      "id": "al-narjis",
+      "nameAr": "فرع النرجس",
+      "nameEn": "Al Narjis Branch",
+      "addressAr": "شارع سعود بن عبدالله جلوي، حي النرجس، الرياض",
+      "addressEn": "Saud Bin Abdullah Jalawi St, Al Narjis, Riyadh",
+      "phone": "+966500000001",
+      "whatsapp": "966500000001",
+      "coordinates": {
+        "lat": 24.8315,
+        "lng": 46.6542
+      },
+      "googleMapsUrl": "https://maps.google.com/?q=24.8315,46.6542",
+      "curbsideAvailable": true,
+      "schedule": {
+        "saturday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "sunday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "monday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "tuesday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "wednesday": { "open": "06:00", "close": "00:00", "closeNextDay": true },
+        "thursday": { "open": "06:00", "close": "01:00", "closeNextDay": true },
+        "friday": { "open": "13:00", "close": "01:00", "closeNextDay": true }
+      }
+    }
+  ]
+}

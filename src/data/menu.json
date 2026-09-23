@@ -1,0 +1,463 @@
+[
+  {
+    "id": "v60-hot",
+    "imageKey": "item-v60-hot",
+    "category": "filter",
+    "nameAr": "قهوة مقطرة حارة (V60)",
+    "nameEn": "Hot V60 Filter Coffee",
+    "descriptionAr": "استخلاص يدوي متقن يبرز النوتات العطرية والفاكهية لأجود محاصيل البن المختص.",
+    "descriptionEn": "Precision manual pour-over extracting the nuanced floral and fruity notes of specialty origins.",
+    "price": 22.00,
+    "calories": 5,
+    "allergens": [],
+    "badgeAr": "الأكثر طلباً",
+    "badgeEn": "Most Popular",
+    "temperature": "hot",
+    "isSignature": true,
+    "options": {
+      "sizes": [
+        { "id": "regular", "nameAr": "كوب مفرد (250 مل)", "nameEn": "Single (250ml)", "priceDelta": 0 },
+        { "id": "large", "nameAr": "سيرفر كبير (400 مل)", "nameEn": "Server (400ml)", "priceDelta": 6 }
+      ],
+      "beans": [
+        { "id": "ethiopia", "nameAr": "إثيوبيا - يرقاتشيف (مجففة)", "nameEn": "Ethiopia - Yirgacheffe (Natural)", "origin": "Ethiopia", "tastingNotesAr": "ياسمين، خوخ، برغموت", "tastingNotesEn": "Jasmine, Peach, Bergamot", "priceDelta": 0 },
+        { "id": "colombia", "nameAr": "كولومبيا - هويلا (مغسولة)", "nameEn": "Colombia - Huila (Washed)", "origin": "Colombia", "tastingNotesAr": "شوكولاتة داكنة، كرز أحمر، عسل", "tastingNotesEn": "Dark Chocolate, Red Cherry, Honey", "priceDelta": 2 },
+        { "id": "salvador", "nameAr": "السلفادور - باكامارا (عسلية)", "nameEn": "El Salvador - Pacamara (Honey)", "origin": "El Salvador", "tastingNotesAr": "مشمش، سكر بني، حمضيات ناعمة", "tastingNotesEn": "Apricot, Brown Sugar, Mild Citrus", "priceDelta": 4 }
+      ]
+    },
+    "pairingId": "cheesecake-madrid"
+  },
+  {
+    "id": "v60-iced",
+    "imageKey": "item-v60-iced",
+    "category": "filter",
+    "nameAr": "قهوة مقطرة باردة (آيس V60)",
+    "nameEn": "Iced V60 Filter Coffee",
+    "descriptionAr": "تقطير ياباني بارد ومباشر على قوالب الثلج النقي لحفظ الإيحاءات المنعشة وقوام صافٍ.",
+    "descriptionEn": "Direct Japanese iced drip over pure crystal ice, locking in crisp aromatics and a clean finish.",
+    "price": 24.00,
+    "calories": 5,
+    "allergens": [],
+    "badgeAr": "صيفي منعش",
+    "badgeEn": "Summer Classic",
+    "temperature": "iced",
+    "isSignature": true,
+    "options": {
+      "sizes": [
+        { "id": "regular", "nameAr": "وسط (350 مل)", "nameEn": "Regular (350ml)", "priceDelta": 0 },
+        { "id": "large", "nameAr": "كبير (480 مل)", "nameEn": "Large (480ml)", "priceDelta": 4 }
+      ],
+      "beans": [
+        { "id": "ethiopia", "nameAr": "إثيوبيا - يرقاتشيف", "nameEn": "Ethiopia - Yirgacheffe", "origin": "Ethiopia", "tastingNotesAr": "فواكه استوائية، حمضيات خفيفة", "tastingNotesEn": "Tropical Fruits, Light Citrus", "priceDelta": 0 },
+        { "id": "colombia", "nameAr": "كولومبيا - كرز أحمر", "nameEn": "Colombia - Red Cherry", "origin": "Colombia", "tastingNotesAr": "كرز، توت، حلاوة كراميل", "tastingNotesEn": "Cherry, Berries, Caramel", "priceDelta": 2 }
+      ],
+      "iceLevels": [
+        { "id": "regular", "nameAr": "ثلج عادي", "nameEn": "Regular Ice" },
+        { "id": "light", "nameAr": "ثلج قليل", "nameEn": "Light Ice" },
+        { "id": "extra", "nameAr": "ثلج إضافي", "nameEn": "Extra Ice" }
+      ]
+    },
+    "pairingId": "tiramisu"
+  },
+  {
+    "id": "spanish-latte-iced",
+    "imageKey": "item-spanish-latte-iced",
+    "category": "iced",
+    "nameAr": "سبانش لاتيه بارد",
+    "nameEn": "Iced Spanish Latte",
+    "descriptionAr": "مزيج متناغم من حليبنا المحلى الخاص ودبل شوت اسبريسو غني يعلو طبقة الثلج.",
+    "descriptionEn": "Harmonious layers of our signature sweetened milk base topped with a double rich espresso shot.",
+    "price": 27.00,
+    "calories": 250,
+    "allergens": ["dairy"],
+    "badgeAr": "توقيع أيم",
+    "badgeEn": "Aim Signature",
+    "temperature": "iced",
+    "isSignature": true,
+    "options": {
+      "sizes": [
+        { "id": "regular", "nameAr": "وسط (350 مل)", "nameEn": "Regular (350ml)", "priceDelta": 0 },
+        { "id": "large", "nameAr": "كبير (480 مل)", "nameEn": "Large (480ml)", "priceDelta": 4 }
+      ],
+      "sweetness": [
+        { "id": "regular", "nameAr": "حلاوة عادية (موزونة)", "nameEn": "Regular Sweet" },
+        { "id": "light", "nameAr": "حلاوة خفيفة", "nameEn": "Light Sweet" },
+        { "id": "extra", "nameAr": "حلاوة زيادة", "nameEn": "Extra Sweet" }
+      ],
+      "milks": [
+        { "id": "full-cream", "nameAr": "حليب كامل الدسم", "nameEn": "Full Cream Milk", "priceDelta": 0 },
+        { "id": "low-fat", "nameAr": "حليب قليل الدسم", "nameEn": "Low Fat Milk", "priceDelta": 0 },
+        { "id": "oat", "nameAr": "حليب شوفان عضوي", "nameEn": "Organic Oat Milk", "priceDelta": 4 }
+      ],
+      "extraShot": true,
+      "iceLevels": [
+        { "id": "regular", "nameAr": "ثلج عادي", "nameEn": "Regular Ice" },
+        { "id": "light", "nameAr": "ثلج قليل", "nameEn": "Light Ice" }
+      ]
+    },
+    "pairingId": "cookie"
+  },
+  {
+    "id": "spanish-latte-hot",
+    "imageKey": "item-spanish-latte-hot",
+    "category": "espresso",
+    "nameAr": "سبانش لاتيه حار",
+    "nameEn": "Hot Spanish Latte",
+    "descriptionAr": "حليب مبخر مخملي مع لمسة حلاوة خاصة ودبل اسبريسو متزن يدفئ الأجواء.",
+    "descriptionEn": "Silky steamed milk infused with custom sweet notes, lifted by a balanced double espresso.",
+    "price": 27.00,
+    "calories": 260,
+    "allergens": ["dairy"],
+    "temperature": "hot",
+    "isSignature": false,
+    "options": {
+      "sizes": [
+        { "id": "regular", "nameAr": "كوب (300 مل)", "nameEn": "Cup (300ml)", "priceDelta": 0 }
+      ],
+      "sweetness": [
+        { "id": "regular", "nameAr": "حلاوة موزونة", "nameEn": "Balanced Sweet" },
+        { "id": "light", "nameAr": "حلاوة خفيفة", "nameEn": "Light Sweet" }
+      ],
+      "extraShot": true
+    },
+    "pairingId": "cinnamon-roll"
+  },
+  {
+    "id": "matcha-iced",
+    "imageKey": "item-matcha-iced",
+    "category": "matcha",
+    "nameAr": "ماتشا لاتيه بارد",
+    "nameEn": "Iced Ceremonial Matcha Latte",
+    "descriptionAr": "ماتشا احتفالية يابانية فاخرة مخفوقة يدوياً، تسكب فوق الحليب البارد والثلج.",
+    "descriptionEn": "Premium ceremonial grade Japanese matcha, whisked to order over chilled milk and ice.",
+    "price": 27.00,
+    "calories": 185,
+    "allergens": ["dairy"],
+    "badgeAr": "الأعلى تقييماً",
+    "badgeEn": "Top Rated",
+    "temperature": "iced",
+    "isSignature": true,
+    "options": {
+      "sizes": [
+        { "id": "regular", "nameAr": "وسط (350 مل)", "nameEn": "Regular (350ml)", "priceDelta": 0 },
+        { "id": "large", "nameAr": "كبير (480 مل)", "nameEn": "Large (480ml)", "priceDelta": 4 }
+      ],
+      "milks": [
+        { "id": "full-cream", "nameAr": "حليب طازج", "nameEn": "Fresh Milk", "priceDelta": 0 },
+        { "id": "oat", "nameAr": "حليب شوفان (موصى به)", "nameEn": "Oat Milk (Recommended)", "priceDelta": 4 },
+        { "id": "coconut", "nameAr": "حليب جوز الهند", "nameEn": "Coconut Milk", "priceDelta": 4 }
+      ],
+      "sweetness": [
+        { "id": "none", "nameAr": "بدون سكر (أصلي)", "nameEn": "No Sugar (Pure)" },
+        { "id": "light", "nameAr": "فانيلا خفيفة", "nameEn": "Light Vanilla" },
+        { "id": "regular", "nameAr": "فانيلا موزونة", "nameEn": "Sweetened" }
+      ]
+    },
+    "pairingId": "creme-brulee-bites"
+  },
+  {
+    "id": "matcha-hot",
+    "imageKey": "item-matcha-hot",
+    "category": "matcha",
+    "nameAr": "ماتشا لاتيه حار",
+    "nameEn": "Hot Ceremonial Matcha",
+    "descriptionAr": "ماتشا نقية بدرجة احتفالية مع رغوة حليب ناعمة ونكهة عشبية ترابية متوازنة.",
+    "descriptionEn": "Pure ceremonial matcha with creamy steamed microfoam and gentle umami balance.",
+    "price": 27.00,
+    "calories": 175,
+    "allergens": ["dairy"],
+    "temperature": "hot",
+    "options": {
+      "milks": [
+        { "id": "full-cream", "nameAr": "حليب طازج", "nameEn": "Fresh Milk", "priceDelta": 0 },
+        { "id": "oat", "nameAr": "حليب شوفان", "nameEn": "Oat Milk", "priceDelta": 4 }
+      ]
+    },
+    "pairingId": "dolce-bites"
+  },
+  {
+    "id": "flat-white",
+    "imageKey": "item-flat-white",
+    "category": "espresso",
+    "nameAr": "فلات وايت",
+    "nameEn": "Flat White",
+    "descriptionAr": "دبل شوت ريستريتو مركز مع حليب مبخر مخملي ورسمة لاتيه متقنة.",
+    "descriptionEn": "Concentrated double ristretto paired with velvety microfoam and precise latte art.",
+    "price": 22.00,
+    "calories": 120,
+    "allergens": ["dairy"],
+    "badgeAr": "كلاسيكيات البار",
+    "badgeEn": "Bar Classic",
+    "temperature": "hot",
+    "isSignature": true,
+    "options": {
+      "milks": [
+        { "id": "full-cream", "nameAr": "حليب كامل الدسم", "nameEn": "Full Cream", "priceDelta": 0 },
+        { "id": "low-fat", "nameAr": "قليل الدسم", "nameEn": "Low Fat", "priceDelta": 0 },
+        { "id": "oat", "nameAr": "حليب شوفان", "nameEn": "Oat Milk", "priceDelta": 4 }
+      ],
+      "extraShot": true
+    },
+    "pairingId": "cookie"
+  },
+  {
+    "id": "cortado",
+    "imageKey": "item-cortado",
+    "category": "espresso",
+    "nameAr": "كورتادو",
+    "nameEn": "Cortado",
+    "descriptionAr": "نسبة 1:1 متكافئة بدقة بين الإسبريسو القوي والحليب المبخر في كأس جبل طارق الزجاجي.",
+    "descriptionEn": "Equal 1:1 ratio of robust espresso cut with silky textured milk in a Gibraltar glass.",
+    "price": 20.00,
+    "calories": 85,
+    "allergens": ["dairy"],
+    "temperature": "hot",
+    "options": {
+      "extraShot": true
+    },
+    "pairingId": "tiramisu"
+  },
+  {
+    "id": "cappuccino",
+    "imageKey": "item-cappuccino",
+    "category": "espresso",
+    "nameAr": "كابوتشينو",
+    "nameEn": "Cappuccino",
+    "descriptionAr": "إسبريسو غني متوج برغوة حليب كريمية كثيفة مع رشة خفيفة من الكاكاو الفاخر.",
+    "descriptionEn": "Rich espresso crowned with dense textured foam and an optional dusting of cocoa.",
+    "price": 23.00,
+    "calories": 130,
+    "allergens": ["dairy"],
+    "temperature": "hot",
+    "options": {
+      "extraShot": true
+    },
+    "pairingId": "cinnamon-roll"
+  },
+  {
+    "id": "espresso",
+    "imageKey": "item-espresso",
+    "category": "espresso",
+    "nameAr": "اسبريسو",
+    "nameEn": "Single / Double Espresso",
+    "descriptionAr": "شوت مركز من محصولنا الإثيوبي الكولومبي بطبقة كريما ذهبية غنية ونكهات شوكولاتة وفاكهة.",
+    "descriptionEn": "Dense extraction with golden tiger-striped crema showcasing rich chocolate and fruit notes.",
+    "price": 16.00,
+    "calories": 5,
+    "allergens": [],
+    "temperature": "hot",
+    "options": {
+      "sizes": [
+        { "id": "single", "nameAr": "سينقل (30 مل)", "nameEn": "Single (30ml)", "priceDelta": 0 },
+        { "id": "double", "nameAr": "دبل (60 مل)", "nameEn": "Double (60ml)", "priceDelta": 3 }
+      ]
+    },
+    "pairingId": "cookie"
+  },
+  {
+    "id": "freddo-espresso",
+    "imageKey": "item-freddo-espresso",
+    "category": "espresso",
+    "nameAr": "فريدو اسبريسو",
+    "nameEn": "Freddo Espresso",
+    "descriptionAr": "دبل اسبريسو مخفوق بالثلج على الطريقة اليونانية لينتج رغوة باردة مخملية بدون حليب.",
+    "descriptionEn": "Greek-style aerated double espresso shaken hard over ice creating dense, cold crema.",
+    "price": 19.00,
+    "calories": 10,
+    "allergens": [],
+    "temperature": "iced",
+    "options": {
+      "sweetness": [
+        { "id": "none", "nameAr": "بدون سكر (سادة)", "nameEn": "Black (No Sugar)" },
+        { "id": "light", "nameAr": "لمسة سكر خفيفة", "nameEn": "Light Sugar" }
+      ]
+    },
+    "pairingId": "cheesecake-madrid"
+  },
+  {
+    "id": "hibiscus-iced",
+    "imageKey": "item-hibiscus-iced",
+    "category": "iced",
+    "nameAr": "كركديه بارد بالحمضيات",
+    "nameEn": "Iced Citrus Hibiscus",
+    "descriptionAr": "منقوع زهور الكركديه العضوي البارد مع عصير الليمون والنعناع الطازج، خالي من الكافيين.",
+    "descriptionEn": "Chilled organic hibiscus blossom brew infused with fresh lemon and mint. Naturally caffeine-free.",
+    "price": 24.00,
+    "calories": 75,
+    "allergens": [],
+    "badgeAr": "خالي من الكافيين",
+    "badgeEn": "Caffeine Free",
+    "temperature": "iced",
+    "options": {
+      "sweetness": [
+        { "id": "regular", "nameAr": "حلاوة موزونة", "nameEn": "Balanced Sweet" },
+        { "id": "light", "nameAr": "حلاوة خفيفة", "nameEn": "Light Sweet" }
+      ]
+    },
+    "pairingId": "halloumi-sandwich"
+  },
+  {
+    "id": "cheesecake-madrid",
+    "imageKey": "item-cheesecake-madrid",
+    "category": "bakery",
+    "nameAr": "تشيز كيك مدريد (سان سباستيان)",
+    "nameEn": "Madrid Cheesecake (San Sebastian)",
+    "descriptionAr": "وجه مكرمل بالفرن مع قلب غني ذائب وكريمي، يصنع يومياً في مخبزنا.",
+    "descriptionEn": "Caramelized charred exterior yielding into a molten, creamy Basque center, baked fresh daily.",
+    "price": 30.00,
+    "calories": 420,
+    "allergens": ["dairy", "egg"],
+    "badgeAr": "الأكثر مبيعاً",
+    "badgeEn": "Best Seller",
+    "pairingId": "v60-hot"
+  },
+  {
+    "id": "tiramisu",
+    "imageKey": "item-tiramisu",
+    "category": "bakery",
+    "nameAr": "تيراميسو كيك كلاسيك",
+    "nameEn": "Classic Tiramisu Cake",
+    "descriptionAr": "بسكويت ليدي فينجر مغموس بإسبريسو أيم الطازج، مغطى بطبقات الماسكاربوني ورشة كاكاو.",
+    "descriptionEn": "Savoiardi ladyfingers steeped in fresh Aim espresso, pillowed by rich mascarpone cream and Dutch cocoa.",
+    "price": 30.00,
+    "calories": 340,
+    "allergens": ["gluten", "dairy", "egg"],
+    "pairingId": "v60-iced"
+  },
+  {
+    "id": "cookie",
+    "imageKey": "item-cookie",
+    "category": "bakery",
+    "nameAr": "كوكيز الشوكولاتة الذائبة",
+    "nameEn": "Molten Chocolate Chunk Cookie",
+    "descriptionAr": "كوكيز طازج مخبوز عند الطلب بحبيبات الشوكولاتة البلجيكية ورشة ملح بحري عضوي.",
+    "descriptionEn": "Warm artisan cookie bursting with pools of molten Belgian dark chocolate and Maldon sea salt flakes.",
+    "price": 20.00,
+    "calories": 380,
+    "allergens": ["gluten", "dairy", "egg"],
+    "pairingId": "flat-white"
+  },
+  {
+    "id": "caramel-velvet",
+    "imageKey": "item-caramel-velvet",
+    "category": "bakery",
+    "nameAr": "كيكة كراميل فيلفت",
+    "nameEn": "Caramel Velvet Cake",
+    "descriptionAr": "طبقات مخملية ناعمة محشوة بكريمة الكراميل المملح وتغطية غنية.",
+    "descriptionEn": "Velvety moist sponge layered with house salted caramel cream and golden glaze.",
+    "price": 33.00,
+    "calories": 410,
+    "allergens": ["gluten", "dairy", "egg"],
+    "pairingId": "v60-hot"
+  },
+  {
+    "id": "dolce-bites",
+    "imageKey": "item-dolce-bites",
+    "category": "bakery",
+    "nameAr": "دولتشي بايتس (بوكس 6 قطع)",
+    "nameEn": "Dolce Bites (Box of 6)",
+    "descriptionAr": "لقيمات حلوى فرنسية ميني محشوة بالدولتشي دي ليتشي ومثالية للمشاركة مع القهوة.",
+    "descriptionEn": "Bite-sized confectioneries filled with luscious dulce de leche, crafted for coffee sharing.",
+    "price": 28.00,
+    "calories": 310,
+    "allergens": ["gluten", "dairy"],
+    "pairingId": "spanish-latte-iced"
+  },
+  {
+    "id": "creme-brulee-bites",
+    "imageKey": "item-creme-brulee-bites",
+    "category": "bakery",
+    "nameAr": "كريم بروليه بايتس",
+    "nameEn": "Crème Brûlée Bites",
+    "descriptionAr": "لقيمات كاسترد غنية مع طبقة سكر مكرملة مقرمشة محروقة بالنار مباشرة.",
+    "descriptionEn": "Crispy torch-caramelized sugar shell over rich Madagascar vanilla bean custard.",
+    "price": 28.00,
+    "calories": 290,
+    "allergens": ["dairy", "egg"],
+    "pairingId": "matcha-iced"
+  },
+  {
+    "id": "cinnamon-roll",
+    "imageKey": "item-cinnamon-roll",
+    "category": "bakery",
+    "nameAr": "سينابون رول كلاسيك",
+    "nameEn": "Classic Cinnamon Roll",
+    "descriptionAr": "عجينة بريوش طرية ملفوفة بالقرفة البنية والمكسرات مع صوص الكريمة الدافئ.",
+    "descriptionEn": "Fluffy brioche swirl packed with Ceylon cinnamon, warm cream cheese glaze and toasted pecans.",
+    "price": 22.00,
+    "calories": 430,
+    "allergens": ["gluten", "dairy", "egg", "nuts"],
+    "pairingId": "cappuccino"
+  },
+  {
+    "id": "halloumi-sandwich",
+    "imageKey": "item-halloumi-sandwich",
+    "category": "savory",
+    "nameAr": "ساندوتش حلومي مشوي بالبريوش",
+    "nameEn": "Grilled Halloumi Brioche",
+    "descriptionAr": "جبن حلوم مشوي مع طماطم مجففة، صوص الزعتر البري وجرجير طازج في خبز بريوش محمص.",
+    "descriptionEn": "Seared Cypriot halloumi, sun-dried tomatoes, wild thyme dressing, and fresh arugula in toasted brioche.",
+    "price": 33.00,
+    "calories": 410,
+    "allergens": ["gluten", "dairy"],
+    "pairingId": "hibiscus-iced"
+  },
+  {
+    "id": "burrata-sandwich",
+    "imageKey": "item-burrata-sandwich",
+    "category": "savory",
+    "nameAr": "ساندوتش بوراتا وبيستو بالفوكاشيا",
+    "nameEn": "Burrata & Pesto Focaccia",
+    "descriptionAr": "جبنة بوراتا إيطالية طازجة مع بيستو الريحان المنزلي وشرائح الطماطم في فوكاشيا إكليل الجبل.",
+    "descriptionEn": "Creamy whole burrata, house-made basil pesto, and ripe heirloom tomatoes on rosemary focaccia.",
+    "price": 36.00,
+    "calories": 460,
+    "allergens": ["gluten", "dairy", "nuts"],
+    "badgeAr": "توصية الشيف",
+    "badgeEn": "Chef Pick",
+    "pairingId": "v60-iced"
+  },
+  {
+    "id": "spicy-tuna",
+    "imageKey": "item-spicy-tuna",
+    "category": "savory",
+    "nameAr": "ساندوتش سبايسي تونا بالشيباتا",
+    "nameEn": "Spicy Tuna Ciabatta",
+    "descriptionAr": "خلطة تونا متبلة مع هالبينو، أفوكادو كريمي وصوص خاص في خبز الشيباتا المقرمش.",
+    "descriptionEn": "Artisanal spiced tuna salad, fresh avocado slices, jalapeño crunch, and herb mayo in artisan ciabatta.",
+    "price": 34.00,
+    "calories": 380,
+    "allergens": ["gluten", "fish"],
+    "pairingId": "v60-iced"
+  },
+  {
+    "id": "box-coffee-2l",
+    "imageKey": "item-box-coffee-2l",
+    "category": "boxes",
+    "nameAr": "بوكس قهوة اليوم للجمعات (2 لتر)",
+    "nameEn": "Coffee of the Day Gathering Box (2L)",
+    "descriptionAr": "حافظة حرارية مصممة سعة 2 لتر من قهوة اليوم المختصة، تكفي من 8 إلى 10 أكواب مع الأكواب والمستلزمات.",
+    "descriptionEn": "Insulated 2-liter dispenser box of specialty drip coffee, serving 8–10 cups with branded cups and condiments.",
+    "price": 79.00,
+    "calories": 50,
+    "allergens": [],
+    "badgeAr": "مثالي للجمعات",
+    "badgeEn": "Great for Groups",
+    "pairingId": "box-sandwiches"
+  },
+  {
+    "id": "box-sandwiches",
+    "imageKey": "item-box-sandwiches",
+    "category": "boxes",
+    "nameAr": "بوكس ساندوتشات الجمعات المشكل",
+    "nameEn": "Gathering Sandwich Box Assortment",
+    "descriptionAr": "تشكيلة من 6 ميني ساندوتشات طازجة (2 حلومي، 2 بوراتا، 2 سبايسي تونا) للجمعات والمكتب.",
+    "descriptionEn": "Curated box of 6 gourmet mini sandwiches (2 Halloumi, 2 Burrata, 2 Spicy Tuna) tailored for office meetings and gatherings.",
+    "price": 99.00,
+    "calories": 1800,
+    "allergens": ["gluten", "dairy", "nuts", "fish"],
+    "badgeAr": "الأكثر طلباً للعمل",
+    "badgeEn": "Workplace Favorite",
+    "pairingId": "box-coffee-2l"
+  }
+]

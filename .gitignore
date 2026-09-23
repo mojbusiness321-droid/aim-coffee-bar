@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing and Browsers
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Production Build
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary test scripts
+scripts/test_cred.ps1
+scripts/test_token.ps1
