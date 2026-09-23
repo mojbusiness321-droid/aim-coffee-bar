@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { getAssetUrl } from '../../utils/assets';
 
 interface Props {
@@ -19,6 +19,14 @@ export const ResponsiveImage: React.FC<Props> = ({
   sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
 }) => {
   const [loaded, setLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // Check if image is already cached / completed on mount
+  useEffect(() => {
+    if (imgRef.current && imgRef.current.complete) {
+      setLoaded(true);
+    }
+  }, []);
 
   // Map aspect ratio to CSS classes
   const aspectClass = {
@@ -32,13 +40,13 @@ export const ResponsiveImage: React.FC<Props> = ({
 
   return (
     <div className={`relative overflow-hidden bg-espresso-100 dark:bg-espresso-800 ${aspectClass} ${className}`}>
-      {/* Skeleton / Blur background */}
-      {!loaded && (
-        <div
-          className="absolute inset-0 bg-espresso-200/50 dark:bg-espresso-700/50 animate-pulse"
-          aria-hidden="true"
-        />
-      )}
+      {/* Skeleton placeholder (fades out gracefully when loaded) */}
+      <div
+        className={`absolute inset-0 bg-espresso-200/60 dark:bg-espresso-700/60 transition-opacity duration-300 pointer-events-none ${
+          loaded ? 'opacity-0' : 'opacity-100 animate-pulse'
+        }`}
+        aria-hidden="true"
+      />
 
       <picture>
         {/* AVIF Source */}
@@ -53,8 +61,9 @@ export const ResponsiveImage: React.FC<Props> = ({
           srcSet={`${basePath}-480.webp 480w, ${basePath}-960.webp 960w, ${basePath}-1600.webp 1600w`}
           sizes={sizes}
         />
-        {/* Fallback Image */}
+        {/* Standard Fallback Image */}
         <img
+          ref={imgRef}
           src={`${basePath}-960.jpg`}
           srcSet={`${basePath}-480.jpg 480w, ${basePath}-960.jpg 960w, ${basePath}-1600.jpg 1600w`}
           sizes={sizes}
@@ -63,9 +72,15 @@ export const ResponsiveImage: React.FC<Props> = ({
           decoding={priority ? 'sync' : 'async'}
           fetchPriority={priority ? 'high' : 'auto'}
           onLoad={() => setLoaded(true)}
-          className={`w-full h-full object-cover transition-all duration-500 ${
-            loaded ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
-          }`}
+          onError={(e) => {
+            setLoaded(true);
+            // Fallback to relative or direct jpg if format negotiation fails
+            const target = e.currentTarget;
+            if (!target.src.endsWith('-960.jpg')) {
+              target.src = getAssetUrl(`images/${imageKey}-960.jpg`);
+            }
+          }}
+          className="w-full h-full object-cover transition-transform duration-500"
         />
       </picture>
     </div>
