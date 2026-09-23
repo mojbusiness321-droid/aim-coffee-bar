@@ -1,6 +1,8 @@
 # أيم كوفي بار | Aim Coffee Bar — Riyadh (Concept Build)
 
 > **تصميم وتطوير:** محمد أبو العسل (Mohammed Abu Al Asal)  
+> **رابط الموقع الحي (Live Website):** [https://mojbusiness321-droid.github.io/aim-coffee-bar/](https://mojbusiness321-droid.github.io/aim-coffee-bar/)  
+> **مستودع الأكواد (GitHub Repository):** [https://github.com/mojbusiness321-droid/aim-coffee-bar](https://github.com/mojbusiness321-droid/aim-coffee-bar)  
 > **حالة المشروع:** نموذج استعراضي تفاعلي متكامل (Production-Ready Concept Piece)  
 > **المدينة والحي:** الرياض، حي الملقا (الرئيسي) وحي النرجس  
 
