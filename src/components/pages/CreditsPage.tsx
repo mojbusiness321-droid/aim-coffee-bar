@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Camera, ArrowLeft, ArrowRight, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { getAssetUrl } from '../../utils/assets';
 
 interface Credit {
   key: string;
@@ -19,7 +20,7 @@ export const CreditsPage: React.FC<Props> = ({ lang, t }) => {
   const [credits, setCredits] = useState<Credit[]>([]);
 
   useEffect(() => {
-    fetch('/images/credits.json')
+    fetch(getAssetUrl('images/credits.json'))
       .then((res) => res.json())
       .then((data) => setCredits(data))
       .catch((err) => console.warn('Could not load credits.json:', err));

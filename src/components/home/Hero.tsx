@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Clock, Car, Sparkles } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 import hoursData from '../../data/hours.json';
 
 interface Props {
@@ -84,16 +85,16 @@ export const Hero: React.FC<Props> = ({ lang, t }) => {
         <picture>
           <source
             type="image/avif"
-            srcSet="/images/hero-main-480.avif 480w, /images/hero-main-960.avif 960w, /images/hero-main-1600.avif 1600w"
+            srcSet={`${getAssetUrl('images/hero-main-480.avif')} 480w, ${getAssetUrl('images/hero-main-960.avif')} 960w, ${getAssetUrl('images/hero-main-1600.avif')} 1600w`}
             sizes="100vw"
           />
           <source
             type="image/webp"
-            srcSet="/images/hero-main-480.webp 480w, /images/hero-main-960.webp 960w, /images/hero-main-1600.webp 1600w"
+            srcSet={`${getAssetUrl('images/hero-main-480.webp')} 480w, ${getAssetUrl('images/hero-main-960.webp')} 960w, ${getAssetUrl('images/hero-main-1600.webp')} 1600w`}
             sizes="100vw"
           />
           <img
-            src="/images/hero-main-1600.jpg"
+            src={getAssetUrl('images/hero-main-1600.jpg')}
             alt="Aim Coffee Bar Barista Bar in Riyadh"
             className="w-full h-full object-cover object-center opacity-35 scale-105 transition-transform duration-1000 ease-out"
             loading="eager"

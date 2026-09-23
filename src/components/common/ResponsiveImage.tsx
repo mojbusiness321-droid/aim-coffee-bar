@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getAssetUrl } from '../../utils/assets';
 
 interface Props {
   imageKey: string;
@@ -27,7 +28,7 @@ export const ResponsiveImage: React.FC<Props> = ({
     '1:1': 'aspect-square',
   }[aspectRatio];
 
-  const basePath = `/images/${imageKey}`;
+  const basePath = getAssetUrl(`images/${imageKey}`);
 
   return (
     <div className={`relative overflow-hidden bg-espresso-100 dark:bg-espresso-800 ${aspectClass} ${className}`}>

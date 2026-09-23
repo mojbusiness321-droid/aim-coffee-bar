@@ -2,10 +2,12 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
-// https://vitejs.dev/config/
+// Use /aim-coffee-bar/ on GitHub Pages, and ./ for local dev
+const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
+
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: isGithubPages ? '/aim-coffee-bar/' : './',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
